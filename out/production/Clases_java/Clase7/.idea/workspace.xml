@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="159389a3-eb03-4dc5-a78d-74c1818bb24e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase8/.idea/artifacts/Clase8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase8/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/Dibujable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/FormaLibre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/MainDibujable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/DescuentoCero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/DescuentoFijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/DescuentoPorcentaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Carrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Descuento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/DescuentoFijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/DescuentoPorcentaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/DescuentoPorcentajeTope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/EjercicioCarrito.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/NoHayStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase8/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio1/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio1/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio1/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/Carrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Descuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/Descuento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Descuento_fijo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Descuento_porcentaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio2/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/Producto.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2NqEk5pNX59FIzczmGLEvtxm8Ld" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/Desarrollador Java Inicial/Ejercicios_java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="159389a3-eb03-4dc5-a78d-74c1818bb24e" name="Changes" comment="" />
+      <created>1680383351708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680383351708</updated>
+    </task>
+    <servers />
+  </component>
+</project>
