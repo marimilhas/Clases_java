@@ -1,12 +1,11 @@
 package Clase6.Ejercicio1;
 
-public class Circulo extends Figura {
+public class Circulo extends Figura implements Dibujable{
     private double radio;
 
     public double getRadio() {
-        return radio;
+        return this.radio;
     }
-
     public void setRadio(double radio) {
         this.radio = radio;
     }
@@ -19,5 +18,10 @@ public class Circulo extends Figura {
     @Override
     public double calcularPerimetro() {
         return 2 * Math.PI * this.radio;
+    }
+
+    @Override
+    public void dibujar() {
+        System.out.println("Dibujo de un círculo.");
     }
 }

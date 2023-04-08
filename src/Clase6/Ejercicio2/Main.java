@@ -1,39 +1,32 @@
 package Clase6.Ejercicio2;
+import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
 
-        Descuento_fijo desc_fijo = new Descuento_fijo();
+        DescuentoFijo desc_fijo = new DescuentoFijo();
         desc_fijo.setValor(1000);
+        DescuentoPorcentaje desc_porcentaje = new DescuentoPorcentaje();
+        desc_porcentaje.setValor(50);
 
-        Descuento_porcentaje desc_porcentaje = new Descuento_porcentaje();
-        desc_porcentaje.setValor(0.5f);
+        float valor_compra = 5000;
+        System.out.println("El descuento es: $" + desc_fijo.obtener_descuento(valor_compra));
+        System.out.println("El descuento es: $" + desc_porcentaje.obtener_descuento(valor_compra));
 
-        float valor_total_compra = 5000f;
-        System.out.println("El descuento total es " + desc_fijo.obtenerdescuento(valor_total_compra));
-        System.out.println("El descuento total es " + desc_porcentaje.obtenerdescuento(valor_total_compra));
+        Persona cliente1 = new Persona("Ignacio","Sánchez");
+        cliente1.fechanac = LocalDateTime.parse("2001-10-05T00:00" + ":00");
 
-        Producto[] productos = new Producto[3];
-        Persona unapersona = new Persona("Mariana", "Milhas");
-        Carrito uncarrito = new Carrito(unapersona, productos);
+        Producto[] productos1 = new Producto[2];
+        productos1[0] = new Producto("Yerba", "IN-0085", 600);
+        productos1[1] = new Producto("Azúcar", "PDF-417", 400);
 
-        Producto unprod = new Producto();
-        unprod.setNombre("Yerba");
-        unprod.setPrecio(600);
-        uncarrito.productos[0] = unprod;
+        Carrito carrito1 = new Carrito(cliente1, productos1);
+        carrito1.fechacompra = LocalDateTime.now();
+        //carrito1.setDescuento(desc_fijo);
+        carrito1.setDescuento(desc_porcentaje);
 
-        Producto otroprod = new Producto();
-        otroprod.setNombre("Azúcar");
-        otroprod.setPrecio(400);
-        uncarrito.productos[1] = otroprod;
-
-        uncarrito.setDescuento(desc_porcentaje);
-
-        /*Descuento descc;
-        if (args[0] == "FIJO"){
-            descc = new Descuento_fijo();
-        } else{
-            descc = new Descuento_porcentaje();
-        }*/
+        float precio =  carrito1.obtenerprecio();
+        System.out.println("Precio total del carrito: $" + precio);
+        System.out.println("Producto " + productos1[0].toString());
     }
 }

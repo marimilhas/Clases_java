@@ -9,6 +9,6 @@ public abstract class Descuento {
     public void setValor(float valor) {
         this.valor = valor;
     }
-    public abstract float obtenerdescuento(float valorbase);
-    public abstract float obtenervalorfinal(float valorbase);
+    public abstract float obtener_descuento(float valor_base);
+    public abstract float obtener_valor_final(float valor_base);
 }

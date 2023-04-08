@@ -1,4 +1,4 @@
-package Clase6.Ejercicio2;
+package org.example;
 import java.time.LocalDateTime;
 
 public class Persona {

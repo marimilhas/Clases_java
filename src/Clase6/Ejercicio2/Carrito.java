@@ -5,28 +5,25 @@ public class Carrito {
     public Persona cliente;
     public Producto[] productos;
     public LocalDateTime fechacompra;
+    private Descuento descuento;
 
     public Descuento getDescuento() {
         return descuento;
     }
-
     public void setDescuento(Descuento descuento) {
         this.descuento = descuento;
     }
 
-    private Descuento descuento;
-
     public Carrito(Persona clientecar, Producto[] productoscar){
         this.cliente = clientecar;
         this.productos = productoscar;
+        this.descuento = new DescuentoCero();
     }
     public float obtenerprecio(){
-        float total_compra_base = 0;
-        for (int i = 0; i < 3; i ++){
-            if (productos[i] != null){
-                total_compra_base += productos[i].getPrecio();
-            }
+        float acumulador = 0;
+        for (int i = 0; i < productos.length; i ++){
+            acumulador += productos[i].precio;
         }
-        return total_compra_base - descuento.obtenerdescuento(total_compra_base);
+        return descuento.obtener_valor_final(acumulador);
     }
 }
