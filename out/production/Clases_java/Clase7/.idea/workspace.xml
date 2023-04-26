@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159389a3-eb03-4dc5-a78d-74c1818bb24e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Clase8/.idea/artifacts/Clase8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Clase8/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase9/src/main/java/org/example/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase9/src/main/java/org/example/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase9/src/test/java/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase9/src/test/java/org/example/PersonaTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/Dibujable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/FormaLibre.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/MainDibujable.java" afterDir="false" />
@@ -19,7 +20,6 @@
       <change afterPath="$PROJECT_DIR$/../Clase6/Ejercicio2/DescuentoPorcentaje.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Carrito.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Descuento.java" afterDir="false" />
@@ -33,7 +33,12 @@
       <change afterPath="$PROJECT_DIR$/EjercicioCarrito/Producto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase8/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase8/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EjercicioCarrito/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase8/src/main/java/org/example/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Clase6/Ejercicio1/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase6/Ejercicio1/Circulo.java" afterDir="false" />
@@ -64,7 +69,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Desarrollador Java Inicial/Ejercicios_java"
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/Desarrollador Java Inicial/Clases_java"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
